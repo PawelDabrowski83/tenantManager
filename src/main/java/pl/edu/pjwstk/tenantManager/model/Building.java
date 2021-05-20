@@ -1,5 +1,5 @@
 package pl.edu.pjwstk.tenantManager.model;
 
-public class Building {
+public class Building extends BasicItem {
 
 }

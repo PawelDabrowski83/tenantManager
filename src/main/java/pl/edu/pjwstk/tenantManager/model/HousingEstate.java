@@ -2,7 +2,7 @@ package pl.edu.pjwstk.tenantManager.model;
 
 import java.util.Set;
 
-public class HousingEstate {
+public class HousingEstate extends BasicItem {
 
     private Set<Building> buildingSet;
 
