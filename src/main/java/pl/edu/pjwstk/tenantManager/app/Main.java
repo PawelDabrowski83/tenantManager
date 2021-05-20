@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         HousingEstate estate = new HousingEstate(new HashSet<>());
-        Apartment apartment = new Apartment();
+        Apartment apartment = new Apartment(17);
         System.out.println(estate.getId() + " " + apartment.getId());
 
     }
