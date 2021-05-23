@@ -31,8 +31,8 @@ public class ParkingSpot extends AreaItem {
 
     @Override
     public String toString() {
-        return super.toString() + "\n" + "ParkingSpot{" +
-                "storedItems=" + storedItems +
+        return "ParkingSpot{" +
+                "storedItems=" + storedItems + super.toString() +
                 '}';
     }
 }

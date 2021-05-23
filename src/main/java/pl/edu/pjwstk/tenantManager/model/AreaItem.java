@@ -38,10 +38,9 @@ public abstract class AreaItem extends IdentifiableItem {
 
     @Override
     public String toString() {
-        return super.toString() + "\n" + "AreaItem{" +
-                "area=" + area +
+        return "\n" +
+                "Details: area = " + area +
                 ", startRenting=" + startRenting +
-                ", endRenting=" + endRenting +
-                '}';
+                ", endRenting=" + endRenting;
     }
 }
