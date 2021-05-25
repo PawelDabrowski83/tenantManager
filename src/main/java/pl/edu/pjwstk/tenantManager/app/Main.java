@@ -11,10 +11,8 @@ public class Main {
     public static void main(String[] args) {
 
         HousingEstate estate = HousingEstateGenerator.generateHousingEstate();
-        Apartment apartment = ApartmentGenerator.generateApartment();
-        ParkingSpot parkingSpot = ParkingSpot.generateParkingSpot();
 
-        System.out.println(parkingSpot);
+        System.out.println(estate);
 
 
     }

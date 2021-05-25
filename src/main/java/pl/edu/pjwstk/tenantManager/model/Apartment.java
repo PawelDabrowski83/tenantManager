@@ -46,9 +46,9 @@ public class Apartment extends AreaItem {
 
     @Override
     public String toString() {
-        return "Apartment{" +
+        return "\nApartment{" + "\n\t" +
                 "mainTenant=" + mainTenant +
                 ", additionalTenantSet=" + additionalTenantSet +
-                ", parkingSpot=" + parkingSpot + super.toString();
+                ", parkingSpot=" + parkingSpot + " " + super.toString();
     }
 }

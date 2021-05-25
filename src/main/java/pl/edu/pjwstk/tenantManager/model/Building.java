@@ -1,6 +1,5 @@
 package pl.edu.pjwstk.tenantManager.model;
 
-import java.util.HashSet;
 import java.util.Set;
 
 public class Building extends IdentifiableItem {
@@ -21,7 +20,7 @@ public class Building extends IdentifiableItem {
 
     @Override
     public String toString() {
-        return "Building{" +
+        return "\n\nBuilding{" + super.toString() + " " +
                 "apartmentSet=" + apartmentSet +
                 '}';
     }

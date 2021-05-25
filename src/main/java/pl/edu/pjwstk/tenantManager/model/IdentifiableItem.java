@@ -11,4 +11,9 @@ public abstract class IdentifiableItem {
     public int getId() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "Id: " + getId();
+    }
 }

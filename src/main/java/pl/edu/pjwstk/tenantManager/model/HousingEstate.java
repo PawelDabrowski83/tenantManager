@@ -20,7 +20,7 @@ public class HousingEstate extends IdentifiableItem {
 
     @Override
     public String toString() {
-        return "HousingEstate{" +
+        return "HousingEstate{ " + super.toString() + " " +
                 "buildingSet=" + buildingSet +
                 '}';
     }

@@ -25,7 +25,7 @@ public class Person extends IdentifiableItem {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Person{ " + super.toString() + " " +
                 "isMainTenant=" + isMainTenant +
                 ", rentedItems=" + rentedItems +
                 '}';
