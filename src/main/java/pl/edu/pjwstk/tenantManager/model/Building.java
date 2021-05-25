@@ -3,7 +3,7 @@ package pl.edu.pjwstk.tenantManager.model;
 import java.util.Set;
 
 public class Building extends IdentifiableItem {
-    public static final int APARTMENT_NUMBER_BOUND = 100;
+    public static final int APARTMENT_NUMBER_BOUND = 10;
     private Set<Apartment> apartmentSet;
 
     public Building(Set<Apartment> apartmentSet) {
