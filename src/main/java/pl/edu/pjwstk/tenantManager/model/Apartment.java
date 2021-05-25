@@ -1,7 +1,6 @@
 package pl.edu.pjwstk.tenantManager.model;
 
 import java.util.Set;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class Apartment extends AreaItem {
     public static final double APARTMENT_AREA_BOUND = 200.0;
@@ -30,10 +29,6 @@ public class Apartment extends AreaItem {
         return additionalTenantSet;
     }
 
-    public void setAdditionalTenantSet(Set<Person> additionalTenantSet) {
-        this.additionalTenantSet = additionalTenantSet;
-    }
-
     public ParkingSpot getParkingSpot() {
         return parkingSpot;
     }
@@ -42,7 +37,9 @@ public class Apartment extends AreaItem {
         this.parkingSpot = parkingSpot;
     }
 
-
+    public boolean addMainTenant(Person person) {
+        return false;
+    }
 
     @Override
     public String toString() {
