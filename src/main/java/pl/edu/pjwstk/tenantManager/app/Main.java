@@ -9,8 +9,6 @@ public class Main {
 
 
         Developer developer = DeveloperGenerator.generateDeveloper();
-
-
         Console.run();
 
 

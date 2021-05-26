@@ -18,12 +18,24 @@ public class Console {
 
             String command = "";
             while(!"0".equals(command)) {
+                switch(command){
+                    case "1" -> login();
+                    case "2" -> showAssets();
+                }
+
                 System.out.println(MSG_MAIN_MENU);
                 command = scanner.nextLine();
             }
             System.out.println(MSG_EXIT);
             System.exit(0);
         }
+    }
+
+    private static void login(){
+
+    }
+
+    private static void showAssets(){
 
     }
 }
