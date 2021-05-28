@@ -1,4 +1,4 @@
 package pl.edu.pjwstk.tenantManager.exeptions;
 
-public class ProblematicTenantException {
+public class ProblematicTenantException extends IllegalStateException {
 }
